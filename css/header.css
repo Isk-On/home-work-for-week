@@ -1,0 +1,47 @@
+nav {
+  width: 100vw;
+  height: 120px;
+
+  display: flex;
+}
+
+.logo-pos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 270px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+li {
+  opacity: 0.9;
+}
+
+li:hover {
+  color: var(--main-blue-color);
+
+  opacity: 1;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+
+  width: 100vw;
+
+  padding-right: 70px;
+}
